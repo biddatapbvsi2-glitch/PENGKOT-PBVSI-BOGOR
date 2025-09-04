@@ -1,0 +1,103 @@
+@import url('reset.css');
+.clr{clear:both;}
+body
+{
+	font-family:arial;
+	font-size:0.85em;
+    color:#4F4F4F;
+    width:960px;
+    margin:0 auto;
+}
+
+#header{
+    height:50px;
+    padding:10px 2px;
+    border-bottom:1px solid #BDBDBD;
+    margin-bottom: 15px;
+}
+
+#logo a{
+    text-decoration: none;color:black;
+}
+#logo
+{
+    text-shadow:0 0 15px #D6D6D6;
+    
+    float:left;
+    padding-top:20px;
+    
+    -webkit-transition: all 900ms ease-in;
+    -moz-transition: all 900ms ease-in;
+    -ms-transition: all 900ms ease-in;
+    -o-transition: all 900ms ease-in;
+    transition: all 900ms ease-in;
+}
+#logo:hover
+{
+    text-shadow:0 0 25px #31A8FD;
+}
+
+#logo #logo1
+{
+    font-size: 2em;
+    font-style: italic;
+    color:#92979A; 
+}
+#logo #logo2{
+    font-size: 3em;
+    font-weight: bold;
+    color:#0B609D;
+}
+#banner{
+    margin-left:150px;
+    text-align: center;
+}
+#content{
+    
+    
+}
+#content td{
+    padding:2px 5px;
+}
+#selectTable #tblContainer{
+    height: 200px;
+    width:300px;
+    overflow:auto;
+    padding:10px; margin:2px;
+    border-radius:5px;
+    
+    box-shadow: inset 0 0 10px #939393;
+}
+#selectTable #tblContainer tr{
+    border:1px solid #C8C8C8;
+    
+}
+#selectTable #tblContainer td label{
+    padding:5px 10px;
+    display: block;    
+    
+}
+#selectTable #tblContainer td label input[type="checkbox"]{
+    margin-right: 20px;
+    vertical-align: middle;
+}
+#selectTable #tblContainer tr,#selectTable #tblContainer input[type="checkbox"]{
+
+    transition: all 400ms ease-in;
+}
+#selectTable #tblContainer tr:hover{
+    background-color: #F9EDCC;
+    color:#2C2C2C;
+}
+#selectTable #tblContainer input[type="checkbox"]:hover{
+    box-shadow: 0 0 20px #F80A0A;    
+}
+#footer{
+    
+    border-top:1px solid gray;
+    margin:10px 0;
+    padding:10px 2px;
+    color:#898989;
+    font-size: 0.87em ;
+    font-style: italic;
+}
